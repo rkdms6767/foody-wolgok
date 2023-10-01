@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
- <%-- jsp 파일 --%>
+ <%-- jsp 파일. --%>
 </body>
 </html>
