@@ -3,36 +3,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- 합쳐지고 최소화된 최신 CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <meta charset="EUC-KR">
 <title>Insert title here</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-
-<h1> 회원가입</h1>
-   <form action="join_ok.jsp" method="post">
-      이름 : <input type="text" name="name"><br/>
-      이메일 : <input tpye="text" name="email"><br/>
-      비밀번호 : <input type="text" name="password"><br/>
-      비밀번호 재확인 : <input tpye="text" name="checkpassword"><br/>
-      
-      선호하는 음식 종류 : 
-      <input type="checkbox" name="item" value="한식">한식 <br/>
-      <input type="checkbox" name="item" value="중식">중식 <br/>
-      <input type="checkbox" name="item" value="양식">양식 <br/>
-      <input type="checkbox" name="item" value="퓨전요리">퓨전요리 <br/>
-      <input type="checkbox" name="item" value="태국식">태국식 <br/>
-      <input type="checkbox" name="item" value="샐러드">샐러드 <br/>
-      <input type="checkbox" name="item" value="죽">죽 <br/>
-      <input type="checkbox" name="item" value="디저트">디저트 <br/>
-      <input type="checkbox" name="item" value="음료">음료 <br/>
-     
-      <br/>
-      <input type="submit" value="회원가입하기">
-                        
-   </form>
-  
-  
+<form class="form-inline">
+  <div class="form-group has-success has-feedback">
+    <label class="control-label" for="inputSuccess4">Input with success</label>
+    <input type="text" class="form-control" id="inputSuccess4" aria-describedby="inputSuccess4Status">
+    <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+    <span id="inputSuccess4Status" class="sr-only">(success)</span>
+  </div>
+</form>
+<form class="form-inline">
+  <div class="form-group has-success has-feedback">
+    <label class="control-label" for="inputGroupSuccess3">Input group with success</label>
+    <div class="input-group">
+      <span class="input-group-addon">@</span>
+      <input type="text" class="form-control" id="inputGroupSuccess3" aria-describedby="inputGroupSuccess3Status">
+    </div>
+    <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+    <span id="inputGroupSuccess3Status" class="sr-only">(success)</span>
+  </div>
+</form>
 </body>
 </html>
