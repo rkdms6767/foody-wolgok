@@ -9,7 +9,7 @@
 <body>
 	<h1> 다이어리 수정 </h1>
 	<form action="EditDiary" method="post">
-      제목 <br/><input type="text" name="title" placeholder="푸디 월곡"><br/>
+      제목 <br/><input type="text" name="title" placeholder="푸디 월곡 최고 맛집"><br/>
       내용 <br/><textarea id="diary" name="diary" rows="6" cols="50" placeholder="월곡의 모든 맛집은 푸디 월곡에.."></textarea><br/>
       공유 <input type="checkbox" value="yes">친구 <br/>
       <input type="submit" value="수정하기"><br/>
